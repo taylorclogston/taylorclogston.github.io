@@ -1,0 +1,164 @@
+/*
+ * The syntax light mode styles.
+ */
+
+@mixin light-syntax {
+  --language-border-color: #cccccc;
+  --highlight-bg-color: #f5f5dc; /* Cream/Parchment background */
+  --highlighter-rouge-color: #005fa3;
+  --highlight-lineno-color: #555555; /* Darker gray for line numbers */
+  --inline-code-bg: #ecead2; /* Slightly darker cream */
+  --code-color: #333333; /* Dark gray for code */
+  --code-header-text-color: #444444; /* Dark gray for header text */
+  --code-header-muted-color: #cccccc; /* Light gray for muted header */
+  --code-header-icon-color: #999999; /* Medium gray for icons */
+  --clipboard-checked-color: #2bcc2b;
+  --filepath-text-color: #555555; /* Darker gray for file paths */
+
+  .highlight .gp {
+    color: #555555; /* Darker gray for generic prompt */
+  }
+
+  /* --- Syntax highlight theme adapted to cream/parchment background --- */
+
+  .highlight table td {
+    padding: 5px;
+  }
+
+  .highlight table pre {
+    margin: 0;
+  }
+
+  .highlight,
+  .highlight .w {
+    color: #333333; /* Dark gray for text */
+    background-color: #f5f5dc; /* Cream/Parchment background */
+  }
+
+  .highlight .err {
+    color: #f5f5dc; /* Inverted for visibility */
+    background-color: #d32f2f;
+  }
+
+  .highlight .c,
+  .highlight .ch,
+  .highlight .cd,
+  .highlight .cm,
+  .highlight .cpf,
+  .highlight .c1,
+  .highlight .cs {
+    color: #6c757d; /* Dark gray for comments */
+  }
+
+  .highlight .cp {
+    color: #aa759f; /* Soft purple */
+  }
+
+  .highlight .nt {
+    color: #aa759f; /* Same as above for consistency */
+  }
+
+  .highlight .o,
+  .highlight .ow {
+    color: #333333; /* Same as text color */
+  }
+
+  .highlight .p,
+  .highlight .pi {
+    color: #333333; /* Same as text color */
+  }
+
+  .highlight .gi {
+    color: #2e7d32; /* Green for insertions */
+  }
+
+  .highlight .gd {
+    color: #c62828; /* Red for deletions */
+    background-color: #ffe6e6; /* Light red background */
+  }
+
+  .highlight .gh {
+    color: #1e88e5; /* Blue for headers */
+    background-color: #f5f5dc;
+    font-weight: bold;
+  }
+
+  .highlight .k,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kv {
+    color: #1e88e5; /* Blue for keywords */
+  }
+
+  .highlight .kc {
+    color: #e65100; /* Orange for constants */
+  }
+
+  .highlight .kt {
+    color: #e65100; /* Same as constants */
+  }
+
+  .highlight .kd {
+    color: #e65100; /* Same as constants */
+  }
+
+  .highlight .s,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .dl,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .sh,
+  .highlight .sx,
+  .highlight .s1 {
+    color: #2e7d32; /* Green for strings */
+  }
+
+  .highlight .sa {
+    color: #1e88e5; /* Blue for attributes */
+  }
+
+  .highlight .sr {
+    color: #00897b; /* Teal for regex */
+  }
+
+  .highlight .si {
+    color: #f9a825; /* Yellow for special elements */
+  }
+
+  .highlight .se {
+    color: #c2185b; /* Pink for embedded elements */
+  }
+
+  .highlight .nn {
+    color: #aa759f; /* Soft purple for names */
+  }
+
+  .highlight .nc {
+    color: #aa759f; /* Same as the above */
+  }
+
+  .highlight .no {
+    color: #aa759f; /* Same as the above */
+  }
+
+  .highlight .na {
+    color: #1e88e5; /* Blue for attribute names */
+  }
+
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .il,
+  .highlight .mo,
+  .highlight .mx {
+    color: #2e7d32; /* Green for numbers and math */
+  }
+
+  .highlight .ss {
+    color: #2e7d32; /* Same as strings */
+  }
+}

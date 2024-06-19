@@ -1,0 +1,146 @@
+/*
+ * The main light mode styles
+ */
+
+@mixin light-scheme {
+  /* Framework color */
+  --main-bg: #f5f5dc; /* Cream/Parchment background */
+  --mask-bg: #ffffff;
+  --main-border-color: #ccc;
+
+  /* Common color */
+  --text-color: #333333; /* Dark gray for high readability */
+  --text-muted-color: #555555; /* Darker gray for muted text */
+  --text-muted-hightlight-color: #495057; /* Darker gray for highlights */
+  --heading-color: #111111; /* Nearly black for high visibility */
+  --label-color: #444444; /* Dark gray for labels */
+  --blockquote-border-color: #ddd; /* Light gray for blockquote borders */
+  --blockquote-text-color: #555555; /* Darker gray for blockquote text */
+  --link-color: #0077cc; /* Blue for links */
+  --link-underline-color: #005fa3; /* Darker blue for underline */
+  --button-bg: #ffffff; /* White for buttons */
+  --btn-border-color: #cccccc; /* Light gray for button borders */
+  --btn-backtotop-color: var(--text-color); 
+  --btn-backtotop-border-color: #dddddd; /* Light gray for back-to-top button borders */
+  --btn-box-shadow: var(--main-bg);
+  --card-header-bg: var(--main-bg);
+  --checkbox-color: #666666; /* Dark gray for checkboxes */
+  --checkbox-checked-color: var(--link-color); 
+  --img-bg: radial-gradient(circle, #ffffff 0%, #f8f9fa 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(240, 240, 240, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  /* Sidebar */
+  --site-title-color: #333333; /* Dark gray for title */
+  --site-subtitle-color: #444444; /* Dark gray for subtitle */
+  --sidebar-bg: #f5f5dc; /* Cream background for sidebar */
+  --sidebar-border-color: #e0e0d1; /* Light cream border */
+  --sidebar-muted-color: #555555; /* Darker gray for muted text */
+  --sidebar-active-color: #000000; /* Black for active text */
+  --sidebar-hover-bg: #f0e68c; /* Light khaki for hover background */
+  --sidebar-btn-bg: #ffffff; /* White for button background */
+  --sidebar-btn-color: #555555; /* Darker gray for button text */
+  --avatar-border-color: rgba(100, 100, 100, 0.9); /* Slight transparency for avatar border */
+
+  /* Topbar */
+  --topbar-bg: rgba(245, 245, 220, 0.8); /* Slightly translucent cream */
+  --topbar-text-color: var(--text-color);
+  --search-border-color: #dddddd; /* Light gray for search border */
+  --search-icon-color: #999999; /* Medium gray for search icon */
+  --input-focus-border-color: #0077cc; /* Same as link color */
+
+  /* Home page */
+  --post-list-text-color: var(--text-color); 
+  --btn-patinator-text-color: var(--text-color);
+  --btn-paginator-hover-color: #e0e0d1; /* Light cream for paginator hover */
+
+  /* Posts */
+  --toc-highlight: #005fa3; /* Darker blue for table of contents highlight */
+  --tag-hover: #e0e0d1; /* Light cream for tag hover */
+  --tb-odd-bg: #ffffff; /* White for odd table rows */
+  --tb-even-bg: #f0e68c; /* Light khaki for even table rows */
+  --tb-border-color: var(--tb-odd-bg);
+  --footnote-target-bg: #0077cc; /* Same as link color */
+  --btn-share-color: #555555; /* Darker gray for share button */
+  --btn-share-hover-color: #000000; /* Black for share button hover */
+  --card-bg: #f5f5dc; /* Cream background for cards */
+  --card-hovor-bg: #f0e68c; /* Light khaki for card hover */
+  --card-shadow: rgba(100, 100, 90, 0.72) 0 6px 18px 0, rgba(137, 135, 125, 0.24) 0 0 0 1px;
+  --kbd-wrap-color: #555555;
+  --kbd-text-color: var(--text-color);
+  --kbd-bg-color: #e0e0d1; /* Light cream for background */
+  --prompt-text-color: rgba(51, 51, 51, 0.75);
+  --prompt-tip-bg: rgba(255, 255, 255, 0.8);
+  --prompt-tip-icon-color: rgba(0, 119, 204, 0.81);
+  --prompt-info-bg: rgba(0, 119, 204, 0.8);
+  --prompt-info-icon-color: #0077cc;
+  --prompt-warning-bg: rgba(90, 69, 3, 0.88);
+  --prompt-warning-icon-color: rgba(255, 165, 0, 0.8);
+  --prompt-danger-bg: rgba(86, 28, 8, 0.8);
+  --prompt-danger-icon-color: #cd0202;
+
+  /* tags */
+  --tag-border: #cccccc;
+  --tag-shadow: #999999;
+  --dash-color: #dddddd;
+  --search-tag-bg: #f5f5dc; /* Cream background for search tags */
+
+  /* categories */
+  --categories-border: rgba(204, 204, 179, 0.5);
+  --categories-hover-bg: #f5f5dc; /* Cream background for categories hover */
+  --categories-icon-hover-color: #333333; /* Dark gray for hovered icons */
+
+  /* archives */
+  --timeline-node-bg: #0077cc;
+  --timeline-color: var(--text-color);
+  --timeline-year-dot-color: var(--timeline-color);
+
+  .dark {
+    display: none;
+  }
+
+  /* categories */
+  .categories.card,
+  .list-group-item {
+    background-color: var(--card-bg);
+  }
+
+  .categories {
+    .card-header {
+      background-color: var(--card-header-bg);
+    }
+
+    .list-group-item {
+      border-left: none;
+      border-right: none;
+      padding-left: 2rem;
+      border-color: var(--categories-border);
+
+      &:last-child {
+        border-bottom-color: var(--card-bg);
+      }
+    }
+  }
+
+  #archives li:nth-child(odd) {
+    background-image: linear-gradient(
+      to left,
+      #ffffff,
+      #f5f5dc,
+      #f5f5dc,
+      #f5f5dc,
+      #ffffff
+    );
+  }
+
+  color-scheme: light;
+
+  /* stylelint-disable-next-line selector-id-pattern */
+  #disqus_thread {
+    color-scheme: none;
+  }
+} /* light-scheme */
