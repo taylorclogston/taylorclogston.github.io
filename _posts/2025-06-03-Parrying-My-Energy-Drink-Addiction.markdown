@@ -17,7 +17,7 @@ When I have a cold, the glucose and B vitamin blast knocks me into feeling alrig
 
 When I simply crave the sweet, sweet nectar of *Sambucus nigra* (or at least an artificial approximation), Red Bull is probably healthier than guzzling St-Germain at 3 AM. Probably.
 
-But recently, a grim look at my most recent bank statement brought me to terms with the truth that I spend *far too much* on energy drinks. After the crushing realization that selling a kidney for elderflower money would result in a body far worse equipped to consume the products of this sale, I decided instead to engineer an energy drink of my own. There won't be any elderflower involved until T.J. Maxx takes pity on me, but blue™ is perhaps my second-favorite beverage flavor, so we'll go with that.
+But a grim look at my most recent bank statement brought me to terms with the truth that I spend *far too much* on energy drinks. After the crushing realization that selling a kidney for elderflower money would result in a body far worse equipped to consume the products of this sale, I decided instead to engineer an energy drink of my own. There won't be any elderflower involved until T.J. Maxx takes pity on me, but blue™ is perhaps my second-favorite beverage flavor, so we'll go with that.
 
 ## The Requirements
 
@@ -41,7 +41,7 @@ Anyway, after perusing my local offerings, I decided on [Kaged Pre-Workout Sport
 
 Next come the electrolytes.
 
-I already keep a bottle of [magnesium citrate](https://www.cvs.com/shop/freskaro-magnesium-citrate-oral-saline-laxative-prodid-231183) on hand to sip against muscle cramps and the aforementioned migraines. You can find 10 fl oz bottles in various fruit flavors in different pharmacies and grocery stores. It's sold as a laxative, but the dose we're using per 12 fl oz of finished drink is only about 16% of the minimum clinical dose on the package... or less, if you like. I've *personally* had zero stomach upset while drinking 1 fl oz at a time, even by itself. Anyway, I got a 12 fl oz bottle at Walmart for $1.47.
+I already keep a bottle of [magnesium citrate](https://www.cvs.com/shop/freskaro-magnesium-citrate-oral-saline-laxative-prodid-231183) on hand to sip against muscle cramps and the aforementioned migraines. You can find 10 fl oz bottles in various fruit flavors in different pharmacies and grocery stores. It's sold as a laxative, but the dose we're using per 12 fl oz of finished drink is only about 16% of the minimum clinical dose on the package... or less, if you like. I've *personally* had zero stomach upset while drinking 1 fl oz at a time, even by itself. Anyway, I got a 10 fl oz bottle at Walmart for $1.47.
 
 A potassium source is, at first glance, much trickier to find on the pharmacy shelf. Supplements usually come in the form of caplets that usually max out at no more than 99 mg per caplet. That's like the amount you'd find in 28 g of fresh banana—hardly useful for its role in countering sodium's blood-pressure-raising effects (like most Americans, I eat *way* too much salty food for my heart's good).
 
@@ -57,7 +57,7 @@ Finally, because I didn't want to use *much* of the pre-workout to limit the caf
 
 1. add 1 fl oz magnesium citrate to your sipping container
 2. add 1/8 teaspoon potassium chloride-based salt substitute
-3. add 1/4 scoop preworkout
+3. add 1/4 scoop pre-workout
 4. add additional liquid to taste and volume
 
 ## Some Nutrition Facts Per 12 fl oz
