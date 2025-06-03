@@ -1,69 +1,58 @@
---- ---
-/*prettier-ignore*/
+---
+---
 
+/* prettier-ignore */
 @use 'main
- {
-  %- if jekyll.environment=='production' -%
-}
-
-.bundle {
-  %- endif -%
-}
-
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
 ';
 
 /* append your custom style below */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-
-  font-size: 1.2em;
-
-  @media (max-width: 767px) {
-    font-size: 1em;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	
+	font-size: 1.2em;
+	@media (max-width: 767px) {
+		font-size: 1em;
   }
 
-  p {
-    font-size: 1.2em;
-    margin-bottom: 1rem;
-    line-height: 1.65rem;
-
-    @media (max-width: 767px) {
-      font-size: 1em;
-      margin-bottom: 1rem;
-      line-height: 1.5rem;
-    }
+p {
+	font-size: 1.2em;
+	margin-bottom: 1rem;
+	line-height:1.65rem;
+	
+	@media (max-width: 767px) {
+		font-size: 1em;
+		margin-bottom: 1rem;
+		line-height:1.5rem;
   }
+}
 
-  /*Horizontal Divider*/
-  hr {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-  }
+/*Horizontal Divider*/
+hr{
+	margin-top: 0rem;
+	margin-bottom: 1rem;}
 
-  h1 {
-    font-size: 2.011rem;
-  }
+h1{
+	font-size: 2.011rem;}
 
-  h2 {
-    font-size: 1.749rem;
-    line-height: 1;
-  }
+h2{
+	font-size: 1.749rem;
+	line-height:1;}
 
-  h3 {
-    font-size: 1.521rem;
-    line-height: 1;
-  }
+h3{
+	font-size:1.521rem;
+	line-height:1;}
 
-  h4 {
-    font-size: 1.322rem;
-    line-height: 1;
-  }
+h4{
+	font-size: 1.322rem;
+	line-height:1;}
 
-  h5 {
-    font-size: 1.15rem;
-    line-height: 1;
-  }
+h5{
+	font-size: 1.15rem;
+	line-height:1;}
 
 }
