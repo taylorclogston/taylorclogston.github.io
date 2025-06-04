@@ -37,7 +37,7 @@ I wanted to experiment with guaraná powder for the caffeine source, but it's no
 
 My ideal first choice would've been the Sodastream Xtreme Energy syrup (very close to Red Bull flavor), but it's been years since I've seen it at a store near me. Even were I to order it online, it seems that only the diet version may be available anymore, which is quite sad.
 
-Anyway, after perusing my local offerings, I decided on [Kaged Pre-Workout Sport](https://www.kaged.com/products/pre-kaged-sport) (it even comes in blue™!). It cost $17 at Walmart for the equivalent of 3.76 g of caffeine, alongside some other elements I was happy to have like L-Citrulline (which may [help with my migraines](https://www.sciencedirect.com/science/article/abs/pii/S1756464617305789)), methylated B vitamins (I very likely have a [MTHFR gene mutation](https://fullyfunctional.com/blog/what-is-mthfr-all-you-need-to-know-about-methylation-and-mthfr/)), and taurine. Assuming that the product isn't, you know, *lying,* this sounds like a good thing at a good price.
+Anyway, after perusing my local offerings, I decided on [Kaged Pre-Workout Sport](https://www.kaged.com/products/pre-kaged-sport) (it even comes in blue™!). It cost $17 at Walmart for the equivalent of 3.76 g of caffeine, alongside some other elements I was happy to have like L-citrulline (which may [help with my migraines](https://www.sciencedirect.com/science/article/abs/pii/S1756464617305789)), methylated B vitamins (I very likely have a [MTHFR gene mutation](https://fullyfunctional.com/blog/what-is-mthfr-all-you-need-to-know-about-methylation-and-mthfr/)), and taurine. Assuming that the product isn't, you know, *lying,* this sounds like a good thing at a good price.
 
 Next come the electrolytes.
 
